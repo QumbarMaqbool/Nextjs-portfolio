@@ -216,8 +216,6 @@ export const skillsImage = (skill) => {
       return blender;
     case 'fastify':
       return fastify;
-    case 'figma':
-      return figma;
     case 'flutter':
       return flutter;
     case 'haxe':

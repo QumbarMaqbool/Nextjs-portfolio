@@ -23,7 +23,6 @@ function ContactForm() {
   const handleSendMail = async (e) => {
     e.preventDefault();
 
-    // front‑end validation
     if (!userInput.name || !userInput.email || !userInput.message) {
       setError((e) => ({ ...e, required: true }));
       return;
@@ -33,21 +32,19 @@ function ContactForm() {
     try {
       setIsLoading(true);
 
-      /* ---------- build FormData for Web3Forms ---------- */
       const formData = new FormData();
       formData.append(
         "access_key",
         process.env.NEXT_PUBLIC_W3F_ACCESS_KEY ||
-          "481aed8b-859c-40ae-95b0-5509ce378644" // replace if not using env
+          "481aed8b-859c-40ae-95b0-5509ce378644"
       );
       formData.append("name", userInput.name);
       formData.append("email", userInput.email);
       formData.append("message", userInput.message);
-      /* -------------------------------------------------- */
 
       const res = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
-        body: formData, // browser sets the right multipart header
+        body: formData,
       });
 
       const result = await res.json();
@@ -73,7 +70,7 @@ function ContactForm() {
 
       <div className="max-w-3xl text-white rounded-lg border border-[#464c6a] p-3 lg:p-5">
         <p className="text-sm text-[#d3d8e8]">
-          If you have any questions or concerns, please don't hesitate to
+          If you have any questions or concerns, please don&apos;t hesitate to
           contact me. I am open to any work opportunities that align with my
           skills and interests.
         </p>

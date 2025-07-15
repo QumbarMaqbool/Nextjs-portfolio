@@ -5,9 +5,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "clean": "rimraf .next",
+    "build": "npm run clean && next build"
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.1",
@@ -29,6 +30,7 @@
     "eslint": "latest",
     "eslint-config-next": "15.1.1",
     "postcss": "latest",
+    "rimraf": "^5.0.10",
     "sass": "^1.69.5",
     "tailwindcss": "latest"
   }

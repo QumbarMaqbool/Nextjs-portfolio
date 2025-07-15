@@ -32,7 +32,7 @@ export default async function Home() {
       <Skills />
       <Projects />
       <Education />
-      {/* <ContactSection /> */}
+      <ContactSection />
     </div>
   )
 };

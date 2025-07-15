@@ -36,7 +36,7 @@ function Experience() {
             </div>
           </div>
 
-          <div>
+          {/* <div>
             <div className="flex flex-col gap-6">
               {
                 experiences.map(experience => (
@@ -72,7 +72,7 @@ function Experience() {
                 ))
               }
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

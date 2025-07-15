@@ -1,4 +1,3 @@
-/* app/(components)/Education/index.tsx */
 'use client';
 
 import Image from 'next/image';

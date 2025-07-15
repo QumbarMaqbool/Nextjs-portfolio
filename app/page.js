@@ -31,8 +31,8 @@ export default async function Home() {
       <Experience />
       <Skills />
       <Projects />
-      {/* <Education />
-      <ContactSection /> */}
+      <Education />
+      {/* <ContactSection /> */}
     </div>
   )
 };

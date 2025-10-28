@@ -1,4 +1,6 @@
 import adobeXd from '../app/assets/svg/skills/adobe-xd.svg';
+import playwright from '../app/assets/svg/skills/playwright.svg';
+import cucumber from '../app/assets/svg/skills/cucumber.svg';
 import adobeaudition from '../app/assets/svg/skills/adobeaudition.svg';
 import afterEffects from '../app/assets/svg/skills/after-effects.svg';
 import angular from '../app/assets/svg/skills/angular.svg';
@@ -94,6 +96,10 @@ export const skillsImage = (skill) => {
       return html;
     case 'photoshop':
       return photoshop;
+    case 'playwright':
+      return playwright;
+    case 'cucumber':
+      return cucumber;
     case 'docker':
       return docker;
     case 'illustrator':

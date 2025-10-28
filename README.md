@@ -8,7 +8,7 @@ This README will guide you through setup, customization, and deployment.
 
 ## 🌐 Live Demo
 
-🎥 **[View Live Preview](https://your-vercel-url.vercel.app)**
+🎥 **[View Live Preview](https://qumbar.vercel.app/)**
 (Replace with your actual Vercel link)
 
 ---
@@ -190,5 +190,5 @@ npm install -g next
 
 * 💼 JavaScript Developer @ Bluemeg
 * 📍 Based in Lahore, Pakistan
-* 🌐 [qumbarmaqbool.dev](https://your-portfolio-link.vercel.app)
+* 🌐 [qumbarmaqbool.dev](https://qumbar.vercel.app/)
 

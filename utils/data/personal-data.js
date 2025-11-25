@@ -1,9 +1,8 @@
 export const personalData = {
   name: "Qumbar Maqbool",
   profile: "/profile.png",
-  designation: "Senior QA Automation Engineer | Full-Stack Developer",
-  description:
-    "I am an enthusiastic engineer skilled in both automation testing and full-stack development, with core expertise in Java, Playwright, and the MERN stack. I enjoy building scalable frameworks and high-performance web applications, focusing on clean, efficient, and reliable code. A quick learner with a passion for new technologies, I am ready for a challenging role that aligns with my skills and interests.",
+  designation: "Senior SDET | Quality Architecture & Automation Specialist",
+  description: "Senior SDET specializing in scalable end-to-end automation. Core expertise is Continuous Quality (CQ) using Java, Playwright, and Cucumber (BDD) for robust UI and API testing. I integrate tests into CI/CD pipelines (Jenkins/Bitbucket) for high-quality deployments. My Full-Stack Developer (MERN Stack) foundation is a critical asset, enabling me to perform white-box testing, contribute to unit/integration coverage, and design comprehensive test solutions efficiently.",
   email: "qumbarmaqbool@gmail.com",
   phone: "+92 3014283432",
   address: "Model Town, Lahore, Pakistan",
@@ -16,5 +15,5 @@ export const personalData = {
   leetcode: "https://leetcode.com/said3812/",
   devUsername: "said7388",
   resume:
-    "https://drive.google.com/file/d/1WSN8KVY9ftGeio59T4B7WoyMHENNyTOy/view?usp=sharing",
+    "https://drive.google.com/file/d/15l4VePBLRKhQHz-1eivyd4TNX3kOn5pi/view?usp=sharing",
 };

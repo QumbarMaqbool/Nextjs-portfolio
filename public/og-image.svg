@@ -1,0 +1,165 @@
+<svg viewBox="0 0 1210 640" xmlns="http://www.w3.org/2000/svg" style="width: 100%; border-radius: 12px;">
+  <defs>
+    
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" rx="0" style="fill:rgb(15, 17, 23);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Subtle grid lines -->
+  <line x1="0" y1="1" x2="1200" y2="1" stroke="#ffffff" stroke-opacity="0.04" style="fill:rgb(0, 0, 0);stroke:rgb(255, 255, 255);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="0" y1="629" x2="1200" y2="629" stroke="#ffffff" stroke-opacity="0.04" style="fill:rgb(0, 0, 0);stroke:rgb(255, 255, 255);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Left accent bar -->
+  <rect x="0" y="0" width="4" height="630" fill="#4F8EF7" style="fill:rgb(79, 142, 247);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Avatar circle -->
+  <circle cx="106" cy="128" r="60" fill="#1e2235" style="fill:rgb(30, 34, 53);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="106" cy="128" r="60" fill="none" stroke="#4F8EF7" stroke-width="2" style="fill:none;stroke:rgb(79, 142, 247);color:rgb(255, 255, 255);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="106" y="138" text-anchor="middle" font-size="36" font-weight="500" font-family="system-ui,sans-serif" fill="#4F8EF7" style="fill:rgb(79, 142, 247);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:36px;font-weight:500;text-anchor:middle;dominant-baseline:auto">QM</text>
+
+  <!-- Name + title -->
+  <text x="196" y="108" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:62px;font-weight:500;text-anchor:start;dominant-baseline:auto">Qumbar Maqbool</text>
+  <text x="196" y="148" style="fill:rgb(79, 142, 247);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:26px;font-weight:400;text-anchor:start;dominant-baseline:auto">Senior SDET · Quality Architecture &amp; Automation</text>
+
+  <!-- Location + links row -->
+  <circle cx="200" cy="180" r="4" style="fill:rgb(29, 158, 117);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="212" y="185" style="fill:rgb(139, 143, 168);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:18px;font-weight:400;text-anchor:start;dominant-baseline:auto">Lahore, Pakistan</text>
+  <circle cx="352" cy="180" r="4" fill="#4F8EF7" style="fill:rgb(79, 142, 247);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="364" y="185" style="fill:rgb(139, 143, 168);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:18px;font-weight:400;text-anchor:start;dominant-baseline:auto">qumbar.vercel.app</text>
+  <circle cx="542" cy="180" r="4" fill="#4F8EF7" style="fill:rgb(79, 142, 247);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="554" y="185" style="fill:rgb(139, 143, 168);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:18px;font-weight:400;text-anchor:start;dominant-baseline:auto">github.com/QumbarMaqbool</text>
+
+  <!-- Divider -->
+  <line x1="40" y1="215" x2="1160" y2="215" stroke="#ffffff" stroke-opacity="0.08" style="fill:rgb(0, 0, 0);stroke:rgb(255, 255, 255);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Stat cards row -->
+  <!-- Card 1 -->
+  <rect x="40" y="237" width="218" height="88" rx="10" style="fill:rgb(26, 29, 39);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="40" y="237" width="218" height="3" rx="10" fill="#4F8EF7" style="fill:rgb(79, 142, 247);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="149" y="290" text-anchor="middle" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:38px;font-weight:500;text-anchor:middle;dominant-baseline:auto">4+</text>
+  <text x="149" y="312" text-anchor="middle" style="fill:rgb(139, 143, 168);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:13px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Years of experience</text>
+
+  <!-- Card 2 -->
+  <rect x="276" y="237" width="218" height="88" rx="10" style="fill:rgb(26, 29, 39);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="276" y="237" width="218" height="3" rx="10" fill="#1D9E75" style="fill:rgb(29, 158, 117);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="385" y="290" text-anchor="middle" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:38px;font-weight:500;text-anchor:middle;dominant-baseline:auto">E2E</text>
+  <text x="385" y="312" text-anchor="middle" style="fill:rgb(139, 143, 168);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:13px;font-weight:400;text-anchor:middle;dominant-baseline:auto">UI · API · Backend testing</text>
+
+  <!-- Card 3 -->
+  <rect x="512" y="237" width="218" height="88" rx="10" style="fill:rgb(26, 29, 39);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="512" y="237" width="218" height="3" rx="10" fill="#9F7BF7" style="fill:rgb(159, 123, 247);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="621" y="290" text-anchor="middle" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:38px;font-weight:500;text-anchor:middle;dominant-baseline:auto">CI/CD</text>
+  <text x="621" y="312" text-anchor="middle" style="fill:rgb(139, 143, 168);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:13px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Jenkins · Bitbucket · GitHub</text>
+
+  <!-- Card 4 -->
+  <rect x="748" y="237" width="218" height="88" rx="10" style="fill:rgb(26, 29, 39);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="748" y="237" width="218" height="3" rx="10" fill="#EF9F27" style="fill:rgb(239, 159, 39);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="857" y="290" text-anchor="middle" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:38px;font-weight:500;text-anchor:middle;dominant-baseline:auto">MERN</text>
+  <text x="857" y="312" text-anchor="middle" style="fill:rgb(139, 143, 168);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:13px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Full-stack dev background</text>
+
+  <!-- Card 5 -->
+  <rect x="984" y="237" width="176" height="88" rx="10" style="fill:rgb(26, 29, 39);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="984" y="237" width="176" height="3" rx="10" fill="#D85A30" style="fill:rgb(216, 90, 48);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="1072" y="290" text-anchor="middle" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:38px;font-weight:500;text-anchor:middle;dominant-baseline:auto">BDD</text>
+  <text x="1072" y="312" text-anchor="middle" style="fill:rgb(139, 143, 168);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:13px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Cucumber · TDD · Agile</text>
+
+  <!-- Divider -->
+  <line x1="40" y1="346" x2="1160" y2="346" stroke="#ffffff" stroke-opacity="0.08" style="fill:rgb(0, 0, 0);stroke:rgb(255, 255, 255);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Skills section label -->
+  <text x="40" y="380" font-size="13" font-family="system-ui,sans-serif" fill="#8b8fa8" letter-spacing="1.5" style="fill:rgb(139, 143, 168);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:13px;font-weight:400;text-anchor:start;dominant-baseline:auto">CORE SKILLS</text>
+
+  <!-- Skill pills row 1 -->
+  <!-- Java 17 -->
+  <rect x="40" y="395" width="102" height="32" rx="16" style="fill:rgb(30, 34, 53);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="91" y="416" text-anchor="middle" style="fill:rgb(160, 164, 190);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:15px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Java 17</text>
+
+  <!-- Playwright -->
+  <rect x="154" y="395" width="110" height="32" rx="16" style="fill:rgb(30, 34, 53);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="209" y="416" text-anchor="middle" style="fill:rgb(160, 164, 190);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:15px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Playwright</text>
+
+  <!-- Cucumber BDD -->
+  <rect x="276" y="395" width="134" height="32" rx="16" style="fill:rgb(30, 34, 53);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="343" y="416" text-anchor="middle" style="fill:rgb(160, 164, 190);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:15px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Cucumber BDD</text>
+
+  <!-- JUnit 5 -->
+  <rect x="422" y="395" width="98" height="32" rx="16" style="fill:rgb(30, 34, 53);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="471" y="416" text-anchor="middle" style="fill:rgb(160, 164, 190);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:15px;font-weight:400;text-anchor:middle;dominant-baseline:auto">JUnit 5</text>
+
+  <!-- REST API Testing -->
+  <rect x="532" y="395" width="158" height="32" rx="16" style="fill:rgb(30, 34, 53);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="611" y="416" text-anchor="middle" style="fill:rgb(160, 164, 190);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:15px;font-weight:400;text-anchor:middle;dominant-baseline:auto">REST API Testing</text>
+
+  <!-- PostgreSQL -->
+  <rect x="702" y="395" width="118" height="32" rx="16" style="fill:rgb(30, 34, 53);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="761" y="416" text-anchor="middle" style="fill:rgb(160, 164, 190);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:15px;font-weight:400;text-anchor:middle;dominant-baseline:auto">PostgreSQL</text>
+
+  <!-- AWS -->
+  <rect x="832" y="395" width="76" height="32" rx="16" style="fill:rgb(30, 34, 53);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="870" y="416" text-anchor="middle" style="fill:rgb(160, 164, 190);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:15px;font-weight:400;text-anchor:middle;dominant-baseline:auto">AWS</text>
+
+  <!-- React.js -->
+  <rect x="920" y="395" width="96" height="32" rx="16" style="fill:rgb(30, 34, 53);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="968" y="416" text-anchor="middle" style="fill:rgb(160, 164, 190);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:15px;font-weight:400;text-anchor:middle;dominant-baseline:auto">React.js</text>
+
+  <!-- Node.js -->
+  <rect x="1028" y="395" width="92" height="32" rx="16" style="fill:rgb(30, 34, 53);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="1074" y="416" text-anchor="middle" style="fill:rgb(160, 164, 190);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:15px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Node.js</text>
+
+  <!-- Skills row 2 -->
+  <rect x="40" y="440" width="130" height="32" rx="16" style="fill:rgb(30, 34, 53);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="105" y="461" text-anchor="middle" style="fill:rgb(160, 164, 190);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:15px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Test Architecture</text>
+
+  <rect x="182" y="440" width="144" height="32" rx="16" style="fill:rgb(30, 34, 53);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="254" y="461" text-anchor="middle" style="fill:rgb(160, 164, 190);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:15px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Cross-Browser Testing</text>
+
+  <rect x="338" y="440" width="150" height="32" rx="16" style="fill:rgb(30, 34, 53);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="413" y="461" text-anchor="middle" style="fill:rgb(160, 164, 190);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:15px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Web Security Testing</text>
+
+  <rect x="500" y="440" width="110" height="32" rx="16" style="fill:rgb(30, 34, 53);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="555" y="461" text-anchor="middle" style="fill:rgb(160, 164, 190);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:15px;font-weight:400;text-anchor:middle;dominant-baseline:auto">TypeScript</text>
+
+  <rect x="622" y="440" width="108" height="32" rx="16" style="fill:rgb(30, 34, 53);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="676" y="461" text-anchor="middle" style="fill:rgb(160, 164, 190);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:15px;font-weight:400;text-anchor:middle;dominant-baseline:auto">GraphQL</text>
+
+  <rect x="742" y="440" width="122" height="32" rx="16" style="fill:rgb(30, 34, 53);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="803" y="461" text-anchor="middle" style="fill:rgb(160, 164, 190);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:15px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Agile / Scrum</text>
+
+  <!-- Divider -->
+  <line x1="40" y1="494" x2="1160" y2="494" stroke="#ffffff" stroke-opacity="0.08" style="fill:rgb(0, 0, 0);stroke:rgb(255, 255, 255);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Experience row -->
+  <!-- Transportial -->
+  <circle cx="62" cy="532" r="6" fill="#4F8EF7" style="fill:rgb(79, 142, 247);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="78" y="537" font-size="15" font-family="system-ui,sans-serif" font-weight="500" fill="#ffffff" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:15px;font-weight:500;text-anchor:start;dominant-baseline:auto">Transportial</text>
+  <text x="78" y="557" font-size="13" font-family="system-ui,sans-serif" fill="#8b8fa8" style="fill:rgb(139, 143, 168);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:13px;font-weight:400;text-anchor:start;dominant-baseline:auto">SDET · 2025–now</text>
+
+  <line x1="210" y1="520" x2="210" y2="568" stroke="#ffffff" stroke-opacity="0.08" style="fill:rgb(0, 0, 0);stroke:rgb(255, 255, 255);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Bluemeg -->
+  <circle cx="232" cy="532" r="6" fill="#1D9E75" style="fill:rgb(29, 158, 117);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="248" y="537" font-size="15" font-family="system-ui,sans-serif" font-weight="500" fill="#ffffff" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:15px;font-weight:500;text-anchor:start;dominant-baseline:auto">Bluemeg</text>
+  <text x="248" y="557" font-size="13" font-family="system-ui,sans-serif" fill="#8b8fa8" style="fill:rgb(139, 143, 168);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:13px;font-weight:400;text-anchor:start;dominant-baseline:auto">SET · 2023–2025</text>
+
+  <line x1="390" y1="520" x2="390" y2="568" stroke="#ffffff" stroke-opacity="0.08" style="fill:rgb(0, 0, 0);stroke:rgb(255, 255, 255);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Versatile Advertisers -->
+  <circle cx="412" cy="532" r="6" fill="#EF9F27" style="fill:rgb(239, 159, 39);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="428" y="537" font-size="15" font-family="system-ui,sans-serif" font-weight="500" fill="#ffffff" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:15px;font-weight:500;text-anchor:start;dominant-baseline:auto">Versatile Advertisers</text>
+  <text x="428" y="557" font-size="13" font-family="system-ui,sans-serif" fill="#8b8fa8" style="fill:rgb(139, 143, 168);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:13px;font-weight:400;text-anchor:start;dominant-baseline:auto">E-Commerce Dev · 2022–2023</text>
+
+  <line x1="670" y1="520" x2="670" y2="568" stroke="#ffffff" stroke-opacity="0.08" style="fill:rgb(0, 0, 0);stroke:rgb(255, 255, 255);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Education -->
+  <circle cx="692" cy="532" r="6" fill="#9F7BF7" style="fill:rgb(159, 123, 247);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="708" y="537" font-size="15" font-family="system-ui,sans-serif" font-weight="500" fill="#ffffff" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:15px;font-weight:500;text-anchor:start;dominant-baseline:auto">Superior University</text>
+  <text x="708" y="557" font-size="13" font-family="system-ui,sans-serif" fill="#8b8fa8" style="fill:rgb(139, 143, 168);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:13px;font-weight:400;text-anchor:start;dominant-baseline:auto">B.Sc Cyber Security · 2024</text>
+
+  <!-- Right side domain tag -->
+  <rect x="980" y="510" width="180" height="60" rx="10" fill="#1a1d27" style="fill:rgb(26, 29, 39);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="980" y="510" width="180" height="3" rx="10" fill="#4F8EF7" style="fill:rgb(79, 142, 247);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="1070" y="540" text-anchor="middle" font-size="12" font-family="system-ui,sans-serif" fill="#8b8fa8" style="fill:rgb(139, 143, 168);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Open to opportunities</text>
+  <text x="1070" y="558" text-anchor="middle" font-size="13" font-family="system-ui,sans-serif" fill="#ffffff" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, sans-serif;font-size:13px;font-weight:400;text-anchor:middle;dominant-baseline:auto">qumbar.vercel.app</text>
+
+</svg>

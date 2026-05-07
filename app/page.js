@@ -1,5 +1,7 @@
 import { personalData } from "@/utils/data/personal-data";
+import { blogsData } from "@/utils/data/blogs";
 import AboutSection from "./components/homepage/about";
+import Blog from "./components/homepage/blog";
 import ContactSection from "./components/homepage/contact";
 import Education from "./components/homepage/education";
 import Experience from "./components/homepage/experience";
@@ -8,20 +10,19 @@ import Projects from "./components/homepage/projects";
 import Skills from "./components/homepage/skills";
 
 export const metadata = {
-  title: "Qumbar Maqbool | Senior SDET – QA Automation, Playwright & MERN Stack",
+  title:
+    "Qumbar Maqbool | Senior SDET – QA Automation, Playwright & MERN Stack",
   description:
     "Portfolio of Qumbar Maqbool – Senior SDET available for freelance QA automation, test framework development, CI/CD integration, and full-stack MERN projects.",
 };
 
-async function getData() {
-  const res = await fetch(`https://dev.to/api/articles?username=${personalData.devUsername}`);
-  if (!res.ok) throw new Error("Failed to fetch data");
-  const data = await res.json();
-  return data.filter((item) => item?.cover_image).sort(() => Math.random() - 0.5);
+function getData() {
+  // Shuffle blogs array and return
+  return [...blogsData].sort(() => Math.random() - 0.5);
 }
 
-export default async function Home() {
-  const blogs = await getData();
+export default function Home() {
+  const blogs = getData();
 
   const personSchema = {
     "@context": "https://schema.org",
@@ -30,7 +31,8 @@ export default async function Home() {
     url: "https://qumbar.vercel.app",
     image: "https://qumbar.vercel.app/profile.png",
     jobTitle: "Senior SDET | QA Automation & Full Stack Developer",
-    description: "Senior Software Development Engineer in Test (SDET) with 4+ years of experience in Java, Playwright, Cucumber BDD, CI/CD, and MERN stack development.",
+    description:
+      "Senior Software Development Engineer in Test (SDET) with 4+ years of experience in Java, Playwright, Cucumber BDD, CI/CD, and MERN stack development.",
     email: "qumbarmaqbool@gmail.com",
     telephone: "+92-301-4283432",
     address: {
@@ -44,9 +46,22 @@ export default async function Home() {
       "https://github.com/QumbarMaqbool",
     ],
     knowsAbout: [
-      "Test Automation", "QA Engineering", "Java", "Playwright", "Cucumber BDD",
-      "JUnit 5", "Selenium", "API Testing", "CI/CD Pipelines", "Jenkins",
-      "PostgreSQL", "React.js", "Next.js", "Node.js", "MongoDB", "TypeScript",
+      "Test Automation",
+      "QA Engineering",
+      "Java",
+      "Playwright",
+      "Cucumber BDD",
+      "JUnit 5",
+      "Selenium",
+      "API Testing",
+      "CI/CD Pipelines",
+      "Jenkins",
+      "PostgreSQL",
+      "React.js",
+      "Next.js",
+      "Node.js",
+      "MongoDB",
+      "TypeScript",
     ],
     hasOccupation: {
       "@type": "Occupation",
@@ -61,7 +76,8 @@ export default async function Home() {
     "@type": "WebSite",
     name: "Qumbar Maqbool Portfolio",
     url: "https://qumbar.vercel.app",
-    description: "Portfolio of Qumbar Maqbool – Senior SDET and QA Automation Engineer",
+    description:
+      "Portfolio of Qumbar Maqbool – Senior SDET and QA Automation Engineer",
     author: { "@type": "Person", name: "Qumbar Maqbool" },
   };
 
@@ -70,7 +86,8 @@ export default async function Home() {
     "@type": "Service",
     name: "QA Automation & Test Engineering Services",
     provider: { "@type": "Person", name: "Qumbar Maqbool" },
-    description: "Freelance QA automation services including end-to-end test framework development, API testing, CI/CD pipeline integration, and full-stack MERN development.",
+    description:
+      "Freelance QA automation services including end-to-end test framework development, API testing, CI/CD pipeline integration, and full-stack MERN development.",
     serviceType: "QA Automation, Test Engineering, MERN Development",
     areaServed: "Worldwide",
     availableChannel: {
@@ -80,16 +97,26 @@ export default async function Home() {
     offers: {
       "@type": "Offer",
       availability: "https://schema.org/InStock",
-      description: "Available for freelance and contract QA automation projects",
+      description:
+        "Available for freelance and contract QA automation projects",
     },
   };
 
   return (
     <div suppressHydrationWarning>
       {/* JSON-LD Structured Data */}
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
 
       {/* Page Content */}
       <HeroSection />
@@ -97,6 +124,7 @@ export default async function Home() {
       <Experience />
       <Skills />
       <Projects />
+      <Blog blogs={blogs} />
       <Education />
       <ContactSection />
     </div>

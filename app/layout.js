@@ -10,31 +10,54 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   metadataBase: new URL("https://qumbar.vercel.app"),
   title: {
-    default: "Qumbar Maqbool | Senior SDET & QA Automation Engineer – Lahore, Pakistan",
+    default:
+      "Qumbar Maqbool | Senior SDET & QA Automation Engineer – Lahore, Pakistan",
     template: "%s | Qumbar Maqbool",
   },
   description:
     "Qumbar Maqbool is a Senior SDET and QA Automation Engineer based in Lahore, Pakistan with 4+ years of experience in Java, Playwright, Cucumber BDD, CI/CD pipelines, and MERN stack development. Available for freelance and full-time opportunities.",
   keywords: [
     // Core identity
-    "Qumbar Maqbool", "SDET", "Senior SDET", "QA Automation Engineer",
-    "Software Development Engineer in Test", "Quality Assurance Engineer",
+    "Qumbar Maqbool",
+    "SDET",
+    "Senior SDET",
+    "QA Automation Engineer",
+    "Software Development Engineer in Test",
+    "Quality Assurance Engineer",
     // Tech stack
-    "Java Playwright automation", "Cucumber BDD", "JUnit 5", "Selenium alternative",
-    "REST API testing", "PostgreSQL testing", "Jenkins CI/CD", "Bitbucket pipelines",
+    "Java Playwright automation",
+    "Cucumber BDD",
+    "JUnit 5",
+    "Selenium alternative",
+    "REST API testing",
+    "PostgreSQL testing",
+    "Jenkins CI/CD",
+    "Bitbucket pipelines",
     // Freelance signals
-    "freelance QA engineer", "freelance test automation", "hire SDET freelancer",
-    "QA automation freelancer Pakistan", "hire automation engineer",
+    "freelance QA engineer",
+    "freelance test automation",
+    "hire SDET freelancer",
+    "QA automation freelancer Pakistan",
+    "hire automation engineer",
     // Services
-    "test automation services", "QA consulting", "automation framework development",
-    "end-to-end testing services", "regression testing automation",
-    "CI CD integration testing", "API automation testing service",
+    "test automation services",
+    "QA consulting",
+    "automation framework development",
+    "end-to-end testing services",
+    "regression testing automation",
+    "CI CD integration testing",
+    "API automation testing service",
     // Full stack
-    "MERN stack developer", "React developer", "Next.js developer",
-    "Node.js developer", "full stack developer Lahore",
+    "MERN stack developer",
+    "React developer",
+    "Next.js developer",
+    "Node.js developer",
+    "full stack developer Lahore",
     // Location
-    "software developer Lahore Pakistan", "SDET Pakistan",
-    "QA engineer Pakistan", "tech freelancer Pakistan",
+    "software developer Lahore Pakistan",
+    "SDET Pakistan",
+    "QA engineer Pakistan",
+    "tech freelancer Pakistan",
   ],
   authors: [{ name: "Qumbar Maqbool", url: "https://qumbar.vercel.app" }],
   creator: "Qumbar Maqbool",
@@ -43,7 +66,12 @@ export const metadata = {
   robots: {
     index: true,
     follow: true,
-    googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-snippet": -1,
+      "max-image-preview": "large",
+    },
   },
   verification: {
     google: "bE0kz6lzdcA7qnD6Lx7DQa5nZZQoHnYiUUi4qqccx1U",
@@ -56,7 +84,14 @@ export const metadata = {
     title: "Qumbar Maqbool | Senior SDET & QA Automation Engineer",
     description:
       "Hire Qumbar Maqbool – Senior SDET with 4+ years experience in test automation (Java, Playwright, Cucumber BDD), CI/CD, REST API testing, and MERN stack development.",
-    images: [{ url: "/og-image.svg", width: 1200, height: 630, alt: "Qumbar Maqbool – Senior SDET Portfolio" }],
+    images: [
+      {
+        url: "/og-image.svg",
+        width: 1200,
+        height: 630,
+        alt: "Qumbar Maqbool – Senior SDET Portfolio",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
@@ -74,11 +109,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <meta name="google-site-verification" content="bE0kz6lzdcA7qnD6Lx7DQa5nZZQoHnYiUUi4qqccx1U" />
+        <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM} />
+      </head>
       <body className={inter.className}>
         <ClientWrapper>{children}</ClientWrapper>
         <Footer />
       </body>
-      <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM} />
     </html>
   );
 }

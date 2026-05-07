@@ -1,5 +1,4 @@
 "use client";
-// @flow strict
 import { isValidEmail } from "@/utils/check-email";
 import { useState } from "react";
 import { TbMailForward } from "react-icons/tb";
@@ -32,30 +31,31 @@ function ContactForm() {
     try {
       setIsLoading(true);
 
-      const formData = new FormData();
-      formData.append(
-        "access_key",
-        process.env.NEXT_PUBLIC_W3F_ACCESS_KEY ||
-          "481aed8b-859c-40ae-95b0-5509ce378644"
-      );
-      formData.append("name", userInput.name);
-      formData.append("email", userInput.email);
-      formData.append("message", userInput.message);
+      const data = {
+        access_key: process.env.NEXT_PUBLIC_W3F_ACCESS_KEY || "",
+        name: userInput.name,
+        email: userInput.email,
+        message: userInput.message,
+      };
 
-      const res = await fetch("https://api.web3forms.com/submit", {
+      const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
-        body: formData,
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify(data),
       });
 
-      const result = await res.json();
+      const json = await response.json();
 
-      if (result.success) {
+      if (json.success) {
         toast.success("Message sent successfully!");
         setUserInput({ name: "", email: "", message: "" });
       } else {
         toast.error("Something went wrong. Please try again.");
       }
-    } catch {
+    } catch (err) {
       toast.error("Failed to send message. Please check your network.");
     } finally {
       setIsLoading(false);
@@ -74,7 +74,6 @@ function ContactForm() {
         </p>
 
         <div className="mt-6 flex flex-col gap-4">
-          {/* Name */}
           <div className="flex flex-col gap-2">
             <label className="text-base">Your Name:</label>
             <input
@@ -90,7 +89,6 @@ function ContactForm() {
             />
           </div>
 
-          {/* Email */}
           <div className="flex flex-col gap-2">
             <label className="text-base">Your Email:</label>
             <input
@@ -117,7 +115,6 @@ function ContactForm() {
             )}
           </div>
 
-          {/* Message */}
           <div className="flex flex-col gap-2">
             <label className="text-base">Your Message:</label>
             <textarea
@@ -133,12 +130,10 @@ function ContactForm() {
             />
           </div>
 
-          {/* Error note */}
           {error.required && (
             <p className="text-sm text-red-400">All fields are required!</p>
           )}
 
-          {/* Submit button */}
           <button
             className="flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-5 py-2.5 text-xs md:text-sm font-medium uppercase tracking-wider text-white transition-all duration-200"
             role="button"

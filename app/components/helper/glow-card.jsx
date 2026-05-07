@@ -49,9 +49,9 @@ const GlowCard = ({ children, identifier }) => {
       }
     };
 
-    if (typeof window !== "undefined") {
-      document.body.addEventListener("pointermove", UPDATE);
-    }
+    if (typeof window === "undefined") return;
+
+    document.body.addEventListener("pointermove", UPDATE);
 
     const RESTYLE = () => {
       CONTAINER.style.setProperty("--gap", CONFIG.gap);
@@ -59,7 +59,7 @@ const GlowCard = ({ children, identifier }) => {
       CONTAINER.style.setProperty("--spread", CONFIG.spread);
       CONTAINER.style.setProperty(
         "--direction",
-        CONFIG.vertical ? "column" : "row"
+        CONFIG.vertical ? "column" : "row",
       );
     };
 
@@ -68,7 +68,9 @@ const GlowCard = ({ children, identifier }) => {
 
     // Cleanup event listener
     return () => {
-      document.body.removeEventListener("pointermove", UPDATE);
+      if (typeof window !== "undefined") {
+        document.body.removeEventListener("pointermove", UPDATE);
+      }
     };
   }, [identifier]);
 

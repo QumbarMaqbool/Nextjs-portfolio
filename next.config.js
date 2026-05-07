@@ -22,6 +22,11 @@ const nextConfig = {
         hostname: "media2.dev.to",
         pathname: "**",
       },
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+        pathname: "**",
+      },
     ],
   },
   // eslint: {

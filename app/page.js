@@ -10,10 +10,36 @@ import Projects from "./components/homepage/projects";
 import Skills from "./components/homepage/skills";
 
 export const metadata = {
-  title:
-    "Qumbar Maqbool | Senior SDET – QA Automation, Playwright & MERN Stack",
+  title: "Remote QA Automation Engineer | Qumbar Maqbool",
   description:
-    "Portfolio of Qumbar Maqbool – Senior SDET available for freelance QA automation, test framework development, CI/CD integration, and full-stack MERN projects.",
+    "Hire a remote Senior QA Automation Engineer for worldwide test automation, Playwright QA, API testing, CI/CD pipeline integration, and MERN application development.",
+  openGraph: {
+    title: "Remote QA Automation Engineer | Qumbar Maqbool",
+    description:
+      "Hire a remote Senior QA Automation Engineer and MERN developer for worldwide Playwright testing, API testing, CI/CD integration, and software quality engineering.",
+    url: "https://qumbar.vercel.app",
+    siteName: "Qumbar Maqbool Portfolio",
+    images: [
+      {
+        url: "/og-image.svg",
+        width: 1200,
+        height: 630,
+        alt: "Remote QA Automation Engineer Portfolio",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Remote QA Automation Engineer | Qumbar Maqbool",
+    description:
+      "Senior QA Automation Engineer available for worldwide remote engagements in Playwright, Cucumber BDD, CI/CD testing, REST API automation, and MERN development.",
+    images: ["/og-image.svg"],
+    creator: "@qumbarmaqbool",
+  },
+  alternates: {
+    canonical: "https://qumbar.vercel.app",
+  },
 };
 
 function getData() {

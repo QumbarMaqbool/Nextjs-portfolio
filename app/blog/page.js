@@ -4,9 +4,36 @@ import { blogsData } from "@/utils/data/blogs";
 import BlogCard from "../components/homepage/blog/blog-card";
 
 export const metadata = {
-  title: "All Blog Posts | Qumbar Maqbool",
+  title: "All Blog Posts | QA Automation, Playwright & MERN | Qumbar Maqbool",
   description:
-    "Read all blog posts on QA automation, testing, MERN stack development, and software engineering best practices.",
+    "Read blog posts on QA automation, Playwright testing, API automation, CI/CD, and MERN development from Qumbar Maqbool.",
+  openGraph: {
+    title: "All Blog Posts | QA Automation, Playwright & MERN | Qumbar Maqbool",
+    description:
+      "Explore QA automation, Playwright, API testing, CI/CD, and MERN development articles from a remote QA automation engineer.",
+    url: "https://qumbar.vercel.app/blog",
+    siteName: "Qumbar Maqbool Portfolio",
+    images: [
+      {
+        url: "/og-image.svg",
+        width: 1200,
+        height: 630,
+        alt: "All Blog Posts | Qumbar Maqbool",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "All Blog Posts | QA Automation, Playwright & MERN | Qumbar Maqbool",
+    description:
+      "Explore QA automation, Playwright, API testing, CI/CD, and MERN development articles from a remote QA automation engineer.",
+    images: ["/og-image.svg"],
+    creator: "@qumbarmaqbool",
+  },
+  alternates: {
+    canonical: "https://qumbar.vercel.app/blog",
+  },
 };
 
 function page() {

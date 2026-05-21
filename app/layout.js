@@ -39,6 +39,12 @@ export const metadata = {
     "hire SDET freelancer",
     "QA automation freelancer Pakistan",
     "hire automation engineer",
+    "remote QA automation engineer",
+    "remote QA automation services",
+    "outsourced QA testing",
+    "international QA consultant",
+    "worldwide QA automation",
+    "international test automation",
     // Services
     "test automation services",
     "QA consulting",
@@ -47,12 +53,14 @@ export const metadata = {
     "regression testing automation",
     "CI CD integration testing",
     "API automation testing service",
+    "professional QA automation services",
     // Full stack
     "MERN stack developer",
     "React developer",
     "Next.js developer",
     "Node.js developer",
     "full stack developer Lahore",
+    "remote MERN developer",
     // Location
     "software developer Lahore Pakistan",
     "SDET Pakistan",
@@ -110,7 +118,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <meta name="google-site-verification" content="bE0kz6lzdcA7qnD6Lx7DQa5nZZQoHnYiUUi4qqccx1U" />
+        <meta
+          name="google-site-verification"
+          content="bE0kz6lzdcA7qnD6Lx7DQa5nZZQoHnYiUUi4qqccx1U"
+        />
         <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM} />
       </head>
       <body className={inter.className}>

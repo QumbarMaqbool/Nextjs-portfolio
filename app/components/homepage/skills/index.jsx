@@ -1,17 +1,17 @@
 /* app/(components)/Skills/index.tsx */
-'use client';
+"use client";
 
-import Image from 'next/image';
-import dynamic from 'next/dynamic';
+import Image from "next/image";
+import dynamic from "next/dynamic";
 
-import { skillsData } from '@/utils/data/skills';
-import { skillsImage } from '@/utils/skill-image';
+import { skillsData } from "@/utils/data/skills";
+import { skillsImage } from "@/utils/skill-image";
 
 /*  ──────────────────────────────────────────
     Lazy‑load react‑fast‑marquee only on the
     client so it never runs during SSR
     ────────────────────────────────────────── */
-const Marquee = dynamic(() => import('react-fast-marquee'), { ssr: false });
+const Marquee = dynamic(() => import("react-fast-marquee"), { ssr: false });
 
 export default function Skills() {
   return (
@@ -71,6 +71,7 @@ export default function Skills() {
                       width={40}
                       height={40}
                       className="h-full w-auto rounded-lg"
+                      style={{ width: "auto", height: "auto" }}
                     />
                   </div>
                   <p className="text-white text-sm sm:text-lg">{skill}</p>

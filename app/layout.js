@@ -122,7 +122,9 @@ export default function RootLayout({ children }) {
           name="google-site-verification"
           content="bE0kz6lzdcA7qnD6Lx7DQa5nZZQoHnYiUUi4qqccx1U"
         />
-        <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM} />
+        {process.env.NEXT_PUBLIC_GTM && (
+          <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM} />
+        )}
       </head>
       <body className={inter.className}>
         <ClientWrapper>{children}</ClientWrapper>

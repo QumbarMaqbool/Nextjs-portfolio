@@ -64,14 +64,13 @@ export default function Skills() {
                 </div>
 
                 <div className="flex flex-col items-center gap-3 p-6">
-                  <div className="h-8 sm:h-10">
+                  <div className="flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14">
                     <Image
                       src={skillsImage(skill)?.src}
                       alt={skill}
-                      width={40}
-                      height={40}
-                      className="h-full w-auto rounded-lg"
-                      style={{ width: "auto", height: "auto" }}
+                      width={50}
+                      height={50}
+                      className="w-10 h-10 sm:w-12 sm:h-12 object-contain"
                     />
                   </div>
                   <p className="text-white text-sm sm:text-lg">{skill}</p>
